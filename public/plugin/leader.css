@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Orbitron:wght@400;500;600;700;800;900&display=swap");
+
+body {
+    background-color: black !important;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+    text-decoration: none;
+}
+
+.bg {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+}
+
+.bg img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Hero Section Styles */
+.hero-section {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/* Navbar Styles */
+.navbar-wrapper {
+    height: 6rem;
+    /* left: 0;
+    top: 0;
+    right: 0;
+    position: fixed;
+} */
+}
+
+.navbar-container {
+    max-width: 75rem;
+    height: 100%;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    color: #f0eff9;
+    font-size: 18px;
+    font-family: Orbitron;
+    font-weight: 900;
+    text-align: center;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 3rem;
+}
+
+.nav-links a {
+    color: #f0eff9;
+    font-size: 14px;
+    font-family: Manrope;
+    text-decoration: none;
+}
+
+.login-btn {
+    background: white;
+    color: black;
+    font-size: 14px;
+    font-family: Manrope;
+    padding: 0.75rem 2.5rem;
+    border: none;
+    border-radius: 5rem;
+    transition: 0.1s all;
+    cursor: pointer;
+}
+
+/* Register Pop Styles */
+.register-pop {
+    background-color: #1e1d2691;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 2.5rem;
+    border-radius: 0.5rem;
+
+    width: 100%;
+    max-width: 27.5rem;
+}
+
+.register-pop form {
+    display: grid;
+    gap: 0.75rem;
+}
+
+.register-pop h2 {
+    color: white;
+    font-family: "Orbitron";
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.register-pop h3 {
+    color: rgb(186, 186, 186);
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1.75rem;
+}
+
+.register-title {
+    text-align: center;
+    color: rgb(216, 216, 216);
+    font-size: 32px;
+    font-family: Orbitron;
+    font-weight: 500;
+}
+
+.register-subtitle {
+    text-align: center;
+    color: #c0c0c0;
+    font-size: 16px;
+    font-family: Manrope;
+    font-weight: 600;
+}
+
+/* Form Box Styles */
+.form-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+
+    width: 100%;
+}
+
+.input-box {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+.input-box label {
+    color: rgb(224, 224, 224);
+    font-size: 0.8125rem;
+    font-family: Manrope;
+    font-weight: 500;
+    line-height: 1.25rem;
+}
+
+.input-box input {
+    border: none;
+    width: 100%;
+    padding: 0.75rem 3rem 0.75rem 1.5rem;
+    border-radius: 5rem;
+    position: relative;
+    font-size: 0.8125rem;
+
+    background: #272727;
+    color: rgb(163, 163, 163);
+}
+
+.btn-default {
+    color: white;
+    font-weight: 500;
+    font-size: 0.8125rem;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 0.5rem;
+
+    border-radius: 5rem;
+    background-color: white;
+    color: black;
+    border: none;
+    margin-top: 1rem;
+}
+
+.input-file {
+    background-color: #272727;
+    color: white;
+    border-radius: 5rem;
+    overflow: hidden;
+    font-size: 0.8125rem;
+
+    display: flex;
+    width: 100%;
+}
+
+.input-file p {
+    background-color: white;
+    padding-block: 0.5rem;
+    color: #272727;
+    padding-inline: 1rem;
+    white-space: nowrap;
+    margin: 0;
+    font-size: 0.8125rem;
+    line-height: 1.5rem;
+}
+
+.input-file input {
+    background: none;
+    border: none;
+    padding-block: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 1rem;
+    color: white;
+    width: 100%;
+}
+
+.input-box h6 {
+    color: rgb(195, 65, 65);
+    font-size: 0.625rem;
+}
